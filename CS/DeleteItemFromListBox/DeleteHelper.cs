@@ -110,6 +110,7 @@ namespace DeleteItemFromListBox
 
         void Redraw()
         {
+            _list.Invalidate(_list.GetItemRectangle(itemIndex - 1));
             _list.Invalidate(_list.GetItemRectangle(itemIndex));
         }
 
