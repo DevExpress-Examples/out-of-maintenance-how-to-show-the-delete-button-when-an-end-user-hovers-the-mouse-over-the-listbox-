@@ -13,6 +13,7 @@ namespace DeleteItemFromListBox
         [STAThread]
         static void Main()
         {
+            DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(DevExpress.LookAndFeel.SkinStyle.Bezier);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
