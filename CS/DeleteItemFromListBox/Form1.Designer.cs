@@ -53,7 +53,7 @@
             this.Controls.Add(this.listBoxControl1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "E3397";
+            this.Text = "E3397 - DevExpress";
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             this.ResumeLayout(false);
 
